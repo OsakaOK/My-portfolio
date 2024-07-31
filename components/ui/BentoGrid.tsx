@@ -59,7 +59,7 @@ export const BentoGridItem = ({
                 <img 
                     src= {img}
                     alt= {img}
-                    className = {cn(imgClassName, 'object-cover, object-center')}
+                    className = {cn(imgClassName, 'object-center')}
                 />
             )}
         </div>
@@ -87,18 +87,16 @@ export const BentoGridItem = ({
         {id === 1 && <GlobeDemo />}
 
         {id === 2 && (
-          <div className=" flex gap1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+          <div className=" flex lg:gap-8 absolute -right-0.5 lg:-right-0.5">
             <div className="flex flex-col gap-3 lg:gap-8">
-            <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/> 
-              {['Python','C','Java'].map((item)=>(
+              {['Python','C','Java','SQL','VBA'].map((item)=>(
                 <span key={item} className="py-2 lg:py4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#101325]">
                   {item}
                 </span>
               ))}
-              <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
             </div>
             <div className="flex flex-col gap-3 lg:gap-8"> 
-              {['React.js','Next.js','TypeScript'].map((item)=>(
+              {['React.js','Next.js','TypeScript','HTML/CSS'].map((item)=>(
                 <span key={item} className="py-2 lg:py4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#101325]">
                   {item}
                 </span>
