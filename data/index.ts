@@ -3,7 +3,6 @@ export const navItems = [
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
   ];
-  
   export const gridItems = [
     {
       id: 1,
@@ -67,14 +66,14 @@ export const navItems = [
     {
       id: 1,
       title: "Food Service Worker",
-      desc: "Worked collaboratively with team members to ensure efficient and timely service during peak hours.",
+      desc: "Succeeded swift and efficient service during peak hours by collaborating with team members, which enhanced customer satisfaction and decreased wait times.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
       title: "Junior Desk Assistant",
-      desc: "Assisted in troubleshooting and resolving switch-related issues",
+      desc: "Used diagnostic tools and procedures to help troubleshoot and resolve switch-related issues, minimizing client downtime and maintaining network dependability.",
       className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
@@ -84,9 +83,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/OsakaOK",
     },
     {
       id: 2,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/osakakpv",
     },
   ];
