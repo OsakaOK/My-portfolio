@@ -20,6 +20,6 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## NOTED
 
-This is a project that I followed from tutorial video.
+This is a project that I followed from tutorial video: (https://youtu.be/FTH6Dn3AyIQ?si=Esj4RoPYjIGgVoFS)
 
 
